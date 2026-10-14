@@ -53,12 +53,10 @@ Thumbs.db
 
 .env
 
-vite.config.js
 
-config
-config/*
 
-routes
-routes/*
 
-public
+
+
+
+src/config/

@@ -1,0 +1,9 @@
+/*========================
+	All css
+  ======================== */
+
+@import url("bootstrap.min.css");
+@import url("admin.css");
+@import url("App.css");
+@import url("phoneInput.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
