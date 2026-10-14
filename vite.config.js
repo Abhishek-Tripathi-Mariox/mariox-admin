@@ -7,7 +7,9 @@ export default defineConfig({
   build: {
     outDir: "build",
   },
-  // server: {
-  //   https: true,
-  // },
+  server: {
+    host: "0.0.0.0",
+    port: 5173,
+    allowedHosts: ["admin.marioxsoftware.com"],
+  },
 });
