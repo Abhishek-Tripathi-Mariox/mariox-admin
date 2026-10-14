@@ -2,8 +2,7 @@ import Cookies from "js-cookie";
 import { toast } from "react-toastify";
 import { authHeader, authHeaderUrlEncoded } from "../helper";
 
-// export const baseURI = "http://localhost:9800/v1/api/";
-export const baseURI = "https://admin-backend.marioxsoftware.com/v1/api/";
+export const baseURI = import.meta.env.VITE_API_URL;
 
 // Example POST method implementation:
 export async function postEncodedData(url = "", data = {}) {
